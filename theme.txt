@@ -1,0 +1,69 @@
+
+desktop-image: "bg.png"
+
+title-text: ""
+message-font: "DejaVu Sans Regular 14"
+message-color: "#eff0f1"
+terminal-font: "Terminus Regular 14"
+terminal-box: "terminal_*.png"
+
++ label {
+    text = " CiGRUB "
+    font = "JetBrainsMono NF Regular 64"
+    color = "#77CDFF"
+    left = 7%
+    top = 10%
+    height = 20
+    width = 40%
+    align = "center"
+}
+
+
++ boot_menu {
+    left = 7%
+    width = 40%
+    top = 30%
+    height = 40%
+    icon_width = 32
+    icon_height = 32
+    item_height = 30
+    item_padding = 1
+    item_icon_space = 20
+    item_spacing = 35
+    menu_pixmap_style = "boot_menu_*.png"
+
+    item_font = "JetBrainsMono NF Regular 20"
+    item_color = "#757575"
+    item_pixmap_style = "item_*.png"
+
+    selected_item_font = "JetBrainsMono NF Bold 24"
+    selected_item_color = "#ffffff"
+    selected_item_pixmap_style = "select_*.png"
+
+    scrollbar = true
+    scrollbar_width = 10
+    scrollbar_thumb = "slider_*.png"
+}
+
++ progress_bar {
+    id = "__timeout__"
+    left = 7%
+    width = 40%
+    top = 75%
+    height = 20
+    text = ""
+    text_color = "#ffffff"
+    font = "JetBrainsMono NF Regular 20"
+    bar_style = "progress_bar_*.png"
+    highlight_style = "progress_highlight_*.png"
+}
+
++ image {
+    top = 100%-84
+    left = 50%-240
+    width = 480
+    height = 42
+    file = "menu.png"
+}
+
+
