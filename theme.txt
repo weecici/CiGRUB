@@ -5,7 +5,7 @@ title-text: ""
 message-font: "DejaVu Sans Regular 14"
 message-color: "#eff0f1"
 terminal-font: "Terminus Regular 14"
-terminal-box: "terminal_*.png"
+terminal-box: "./components/terminal_*.png"
 
 + label {
     text = " CiGRUB "
@@ -30,19 +30,19 @@ terminal-box: "terminal_*.png"
     item_padding = 1
     item_icon_space = 20
     item_spacing = 35
-    menu_pixmap_style = "boot_menu_*.png"
+    menu_pixmap_style = "./components/boot_menu_*.png"
 
     item_font = "JetBrainsMono NF Regular 20"
     item_color = "#757575"
-    item_pixmap_style = "item_*.png"
+    item_pixmap_style = "./components/item_*.png"
 
     selected_item_font = "JetBrainsMono NF Bold 24"
     selected_item_color = "#ffffff"
-    selected_item_pixmap_style = "select_*.png"
+    selected_item_pixmap_style = "./components/select_*.png"
 
     scrollbar = true
     scrollbar_width = 10
-    scrollbar_thumb = "slider_*.png"
+    scrollbar_thumb = "./components/slider_*.png"
 }
 
 + progress_bar {
@@ -54,8 +54,8 @@ terminal-box: "terminal_*.png"
     text = ""
     text_color = "#ffffff"
     font = "JetBrainsMono NF Regular 20"
-    bar_style = "progress_bar_*.png"
-    highlight_style = "progress_highlight_*.png"
+    bar_style = "./components/progress_bar_*.png"
+    highlight_style = "./components/progress_highlight_*.png"
 }
 
 + image {
@@ -63,7 +63,7 @@ terminal-box: "terminal_*.png"
     left = 50%-240
     width = 480
     height = 42
-    file = "menu.png"
+    file = "./components/menu.png"
 }
 
 
